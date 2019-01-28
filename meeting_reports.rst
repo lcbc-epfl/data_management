@@ -1,21 +1,21 @@
 Meeting about data management (24.01.2019)
 ------------------------------------------
 
-People involved: 
-****************
+People involved
+***************
 
 * Simon Dürr
 * Daniele Narzi
 * Mathias Dankl
 * Pablo Baudin
 
-Question discussed:
-*******************
+Question discussed
+******************
 
 * What are the first steps we should take to improve data mangement at LCBC.
 
-Decision taken:
-***************
+Decision taken
+**************
 
 * Simon will ask Ursula to get the DMPs she has already written for grant proposals.
 
@@ -33,8 +33,8 @@ Decision taken:
   questions like name?, project name?, domain (bio, perovskites, methods)?... Which 
   then produces a starting point for the folder hierarchy (with README files?).
 
-Next meeting: (31.01.2019 at 16.00)
-***********************************
+Next meeting (31.01.2019 at 16.00)
+**********************************
 
 * We should each organize the data related to one of our project as we think it should 
   be done. With proper metadata and following the guidelines provided by EPFL.
@@ -46,8 +46,8 @@ Next meeting: (31.01.2019 at 16.00)
 
 * Based on those conclusion the LCBC data documentation should be updated.
 
-The subgroups are as follows:
-*****************************
+The subgroups are as follows
+****************************
 
 * Dürr Simon Leonard:
 
