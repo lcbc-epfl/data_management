@@ -13,13 +13,15 @@ Good practices
 
 * **Publish your data.**
 
-    For example using zenodo_ or other data repositories. You 
-    can also use data journals like `The Journal of Physical and Chemical Reference Data`_
-    Publish as much data as possible and organize it as described above.
+    * For example using zenodo_ or other data repositories. 
+    * You can also use data journals like `The Journal of Physical and Chemical Reference Data`_.
+    * Publish as much data as possible and organize it as described above.
 
 * **Write Data Management Plans for your projects.** 
 
     This is particularly important when writing research project proposals. We provide several 
-    templates and tools below to help you write a DMP.
+    templates and tools in the reference section to help you write a DMP.
 
 
+.. _zenodo: https://zenodo.org/
+.. _The Journal of Physical and Chemical Reference Data: https://aip.scitation.org/journal/jpr

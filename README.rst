@@ -15,14 +15,14 @@ This documentation has been written to help LCBC members with the management of
 their data. It is available at
 https://data-management.readthedocs.io/en/latest/.
 
-The data_managment_ git repository should be used to host all our documentation,
+The `data management`_ git repository should be used to host all our documentation,
 template and scripts made to help us deal with research data management.
 
 Feel free to contribute by improving this documentation or by adding your own
 tips, scripts, references and good practices.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    good_practices
@@ -35,4 +35,6 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+.. _data management: https://github.com/lcbc-epfl/data_management
 

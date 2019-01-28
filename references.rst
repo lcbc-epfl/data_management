@@ -25,8 +25,4 @@ References and useful links
 
 * Automated Interactive Infrastructure and Database for Computational Science, AiiDA: http://www.aiida.net
 
-.. _zenodo: https://zenodo.org/
-.. _The Journal of Physical and Chemical Reference Data: https://aip.scitation.org/journal/jpr
-.. _data_management: https://github.com/lcbc-epfl/data_management
-
 
