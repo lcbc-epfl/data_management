@@ -3,11 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+|Documentation Status|
+
+.. |Documentation Status| image:: https://readthedocs.org/projects/data_management/badge/?version=latest
+   :target: http://data_management.readthedocs.io/?badge=latest
+   
 Research Data Management at LCBC
 ================================
 
 This documentation has been written to help LCBC members with the management of
-their data.
+their data. It is available at
+https://data-management.readthedocs.io/en/latest/.
 
 Good practices
 --------------
