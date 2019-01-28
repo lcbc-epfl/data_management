@@ -36,6 +36,21 @@ Good practices
 References and useful links
 ---------------------------
 
+* The starting point for most of the info: https://researchdata.epfl.ch
+
+* The slides of the presentation on RDM can be found at: https://github.com/lcbc-epfl/data_management
+
+* A nice tool for writting data management plans: https://dmp.opidor.fr
+
+* The zenodo data repository: https://zenodo.org
+
+* The Journal of Physical and Chemical Reference Data: https://aip.scitation.org/journal/jpr
+
+* https://www.dataone.org/best-practices/metadata
+
+* https://data.research.cornell.edu/content/readme
+
+
 .. _zenodo: https://zenodo.org/
 .. _The Journal of Physical and Chemical Reference Data: https://aip.scitation.org/journal/jpr
 
