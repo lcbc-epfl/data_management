@@ -28,6 +28,7 @@ tips, scripts, references and good practices.
    good_practices
    references
    meeting_reports
+   data_organization_structure
 
 Indices and tables
 ==================
