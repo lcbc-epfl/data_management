@@ -41,12 +41,13 @@ Folder structure
     * docking
        * if you had to dock your ligand etc. 
     * add all other steps you undertook before doing actual "simulation" of your system
-* calc
-    * MD
+* **calc**
+   * MD
        * README
           * add a line for each simulation you do, add one line results here or point to summary file of analysis
+
     * SYSTEMNAME.freeform.1
-      * name each simulation starting with the system name and then use freeform to indicate what it is e.g first_equilibration, try using the keywords min, eq, nvt, npt, eq, prod, analysis for directories in this one, describe with README files to be able to reproduce all terminal commands you use. 
+       * name each simulation starting with the system name and then use freeform to indicate what it is e.g first_equilibration, try using the keywords min, eq, nvt, npt, eq, prod, analysis for directories in this one, describe with README files to be able to reproduce all terminal commands you use. 
     * add all further MD simulations here 
 
   * metadyn
@@ -58,9 +59,10 @@ Folder structure
        * name each simulation starting with the system name and then use freeform to indicate what it is e.g first_equilibration, try using the keywords min, eq, nvt, npt, eq, prod 
     * add all further metadyn simulations here 
 
-  * Add all other types of calculations you do with a representative keyword here. E.g qmmm, mmpbsa, genetic_algorithm 
+  * [...] add all other types of calculations you do with a representative keyword here. E.g qmmm, mmpbsa, genetic_algorithm 
 
-  * scripts
+
+* **scripts**
      *  deposit all the scripts you use for analysis in the script folder, ideally add scripts to you path so you can reference them more easily
 
 
