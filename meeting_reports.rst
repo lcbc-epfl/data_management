@@ -39,7 +39,7 @@ Next meeting (31.01.2019 at 16.00)
 * We should each organize the data related to one of our project as we think it should 
   be done. With proper metadata and following the guidelines provided by EPFL.
 
-* We should then discuss (the 4 of us) and find out if thinks are missing in our organizations.
+* We should then discuss (the 4 of us) and find out if things are missing in our organizations.
 
 * We will then talk to the other people in the subgroups to figure out if everyone agrees 
   with the file organization and naming conventions and eventually improve it.

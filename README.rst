@@ -28,6 +28,8 @@ tips, scripts, references and good practices.
    good_practices
    references
    meeting_reports
+   writting_readme
+
 
 Indices and tables
 ==================
