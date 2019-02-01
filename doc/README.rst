@@ -27,9 +27,9 @@ tips, scripts, references and good practices.
 
    good_practices
    references
+   readme_templates
    meeting_reports
-   data_organization_structure
-   writting_readme
+.. data_organization_structure
 
 Indices and tables
 ==================

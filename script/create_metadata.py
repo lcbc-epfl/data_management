@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """Generate a README file for metadata based on some input information."""
 
 import os
@@ -46,7 +46,7 @@ class metadata(object):
 
     @mtype.setter
     def mtype(self, mtype):
-        if not mtype:
+        if mtype is None:
             mtype = input("Metadada type ({}): ".format( ', '.join( allowed_types ) ) )
 
         # make sure mtype is part of allowed types
@@ -61,7 +61,7 @@ class metadata(object):
 
     @filename.setter
     def filename(self, filename):
-        if not filename:
+        if filename is None:
             filename = input("Name for the README file? [README.rst]: ")
             # make sure filename is a non-empty string
             if filename=='':
@@ -76,7 +76,7 @@ class metadata(object):
 
     @subject.setter
     def subject(self, subject):
-        if not subject:
+        if subject is None:
             subject = input("Subject ({}, ...): ".format( ', '.join( allowed_subjects ) ) )
 
         self.__subject = subject
@@ -89,7 +89,7 @@ class metadata(object):
 
     @title.setter
     def title(self, title):
-        if not title:
+        if title is None:
             title = input("Project title: ")
 
         self.__title = title
@@ -102,7 +102,7 @@ class metadata(object):
 
     @author.setter
     def author(self, author):
-        if not author:
+        if author is None:
             author = input("Author: ")
 
         self.__author = author
@@ -121,7 +121,7 @@ class metadata(object):
 
     @email.setter
     def email(self, email):
-        if not email:
+        if email is None:
             guess = self.__guess_email
             email = input("Email [{}]: ".format( guess ) )
             if email=='':
@@ -144,7 +144,7 @@ class metadata(object):
     def __read_file(self, filename):
         """Parse input file to get headers elements."""
 
-        read_type = False
+        read_mtype = False
         read_filename = False
         read_subject = False
         read_title = False
@@ -153,10 +153,15 @@ class metadata(object):
 
         with open(filename,"r") as inp:
             for line in inp:
+                if line[0] == '#':
+                    # do not consider comments
+                    continue
+
                 l = [x.strip() for x in line.lower().split('=')]
-                if "type" in l:
+
+                if "mtype" in l:
                     self.mtype = l[-1]
-                    read_type = True
+                    read_mtype = True
                 if "filename" in l:
                     self.filename = l[-1]
                     read_filename = True
@@ -173,7 +178,7 @@ class metadata(object):
                     self.email = l[-1]
                     read_email = True
 
-        if not read_type:
+        if not read_mtype:
             self.mtype = None
         if not read_filename:
             self.filename = None
@@ -215,17 +220,46 @@ class metadata(object):
         print("Continue to update it until the end of your project.")
 
 
+    def create_config(self, filename):
+        """Use the metadata information to generate a configuration file."""
+        with open(filename,'w') as config:
+            config.write('# Configuration file for python script create_metadata.py\n')
+            config.write('# mtype    = {}\n'.format( self.mtype ))
+            config.write('# subject  = {}\n'.format( self.subject ))
+            config.write('# title    = {}\n'.format( self.title ))
+            config.write('# author   = {}\n'.format( self.author ))
+            config.write('# email    = {}\n'.format( self.email ))
+
+
 if __name__=="__main__":
 
     import argparse
 
     # check if the script was called with an input file
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("-i","--inp", type=str, help="Configuration file.", default=None)
+    parser.add_argument("-c","--config", type=str, help="Configuration file.", default=None)
     args = parser.parse_args()
 
-    # set up of the necessary information for the readme file
-    readme = metadata( args.inp )
+    main_config = os.path.expanduser('~') + '/.config_metadata'
+    if args.config:
+        print("Configuration file from command line: {}".format(args.config))
+
+        # set up metadata info using input configuration file
+        readme = metadata( args.config )
+
+    elif os.path.isfile(main_config):
+        print("Found main configuration file: {}".format(main_config))
+
+        # set up metadata info using main configuration file
+        readme = metadata( main_config )
+
+    else:
+        # set up metadata info from user input only
+        readme = metadata()
+
 
     # generate readme file
     readme.print_readme()
+
+    # generate configuration file
+    # readme.create_config( main_config )

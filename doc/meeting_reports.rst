@@ -1,5 +1,8 @@
-Meeting about data management (24.01.2019)
-------------------------------------------
+Data management meetings
+========================
+
+24.01.2019
+----------
 
 People involved
 ***************
@@ -76,3 +79,33 @@ The subgroups are as follows
     * Villard Justin
 
 
+31.01.2019
+----------
+
+People involved
+***************
+
+* Simon Dürr
+* Daniele Narzi
+* Mathias Dankl
+* Pablo Baudin
+
+Question discussed
+******************
+
+* We looked at the different ways we add to organize project data.
+
+Decision taken
+**************
+
+* We have decided to create a script to generate metadata README templates that
+  can be used and modified by people at LCBC.
+
+* The goal is to have something flexible and easy to use.
+
+* The script should go with some documentation and guidelines.
+
+Next meeting
+************
+
+We should meet again when the script has been written.

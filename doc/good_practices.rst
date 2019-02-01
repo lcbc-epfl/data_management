@@ -4,12 +4,16 @@ Good practices
 * **Use Open-Source as much as possible.** 
     
     For software and for data. A list of recommended file format can be found at 
-    https://researchdata.epfl.ch under "TOOLS --> EPFL Recommended File Formats".
+    https://researchdata.epfl.ch under "TOOLS -> EPFL Recommended File Formats".
 
 * **Organize and describe your data.**
 
-    * Follow the recommended folder structure and naming conventions (to be added).
-    * Describe your data extensively (e.g. using README files).
+    * Follow the recommended folder structure and use the README file templates
+      to describe your data (see, :ref:`readme_templates`).
+    * If you want to stick to your own way, it's ok, just make sure everything is clear and
+      properly documented.
+    * You are also very welcome to suggest modifications to our guidelines and
+      template generator.
 
 * **Publish your data.**
 
