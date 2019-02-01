@@ -8,8 +8,8 @@ Good practices
 
 * **Organize and describe your data.**
 
-    * Follow the recommended folder structure and naming conventions (to be added).
-    * Describe your data extensively (e.g. using README files).
+    * Follow the recommended folder structure and naming conventions (ref:`data-organization-structure`.).
+    * Describe your data with sufficient metadata, use our README generator to help you create metadata faster (ref:`writing-readme`.).
 
 * **Publish your data.**
 
