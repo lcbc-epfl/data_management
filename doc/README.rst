@@ -26,8 +26,9 @@ tips, scripts, references and good practices.
    :caption: Contents:
 
    good_practices
-   references
+   lcbc_github
    readme_templates
+   references
    meeting_reports
 .. data_organization_structure
 

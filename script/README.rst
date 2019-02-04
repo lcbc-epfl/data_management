@@ -58,8 +58,13 @@ produced by the :py:mod:`create_metadata.py` can help you doing that.
 Using the script
 ----------------
 
-The :py:mod:`create_metadata.py` should be directly available on the LCBC 
-cluster. Here is an example of usage::
+At the moment, to use the :py:mod:`create_metadata.py` script on the LCBC cluster,
+you should add the following line to your ``.bashrc``::
+
+    PATH=$PATH:/home/pbaudin/Work/data_management/script/
+
+Alternatively you can follow the :ref:`installation procedure <install>` below.
+Once the script is available, just execute it as::
 
     $ create_metadata.py
     
@@ -160,6 +165,8 @@ If you are lucky you may get more information by typing::
 
 	$ create_metadata.py -h
 
+
+.. _install:
 
 How to install the script
 -------------------------

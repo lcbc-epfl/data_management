@@ -1,11 +1,11 @@
 Data organization structure
-------------------------------------------
+---------------------------
 
 Biomolecular projects
-***************
+*********************
 
 Notes
-******************
+*****
 
 Each project should get a common identifier, which can be modified with a subidentifier for modified structures
 This makes it more evident, what the current system is just by looking at any folder in your project. 
@@ -19,14 +19,14 @@ Ideally, use something like:
 * Common modifiers should use the same suffix. E.g always use _dry, _solv categories when generating input files as you go
 
 READMEs, where?
-**************
+***************
 There should be one general, long README file in the root of your project describing the system and major subsystems you made + a current date, which software, which clusters were used and how you can be reached. 
 E.g RNase H with hybrid DNA/RNA, dsDNA and dsRNA. 
 
 Use the recommended folder structure below and place shorter README files in the respective subdirectories
 
 Folder structure
-**********************************
+****************
 * README
 
 * prep
@@ -68,7 +68,7 @@ Folder structure
 
 
 Ideas to make it easier to adopt
-**********************************
+********************************
 
 Create new script that can quickly generate a boilerplate for the recommended directories that can then be filled by the user. 
 
