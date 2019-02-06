@@ -28,9 +28,6 @@ DATA & FILE OVERVIEW
 
       Other bla bla...
 
-WORKFLOW
-========
-
 METHODOLOGY AND WORKFLOW
 ========================
 
