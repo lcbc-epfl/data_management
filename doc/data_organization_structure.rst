@@ -28,11 +28,11 @@ We don't want to limit you in your creativity or your workflow so we won't enfor
 
 However, we request you to think about your folder structure before starting with the project and avoid arbitray named folders or folders like test, junk etc at any cost. 
 
-For making the project accessible to any third party try organizing the files of this project in a folder where you organize all inputs for the calculation (unedited crystal structures etc.), folders where you store calculation raw data with no modification and folders where you store data that was generated based on your raw data (energy plots, density plots, RMSD distributions etc.) 
+For making the project accessible to any third party try organizing the files of every project in a folder where you organize all inputs for the calculation (unedited crystal structures etc.), folders where you store calculation raw data with no modification and folders where you store data that was generated based on your raw data (energy plots, density plots, RMSD distributions etc.) 
 
 .. code-block:: bash
 
-    $tree project_folder
+    $ tree project_folder
     ├── README
     ├── input_prep
     |   ├── crystal_structures

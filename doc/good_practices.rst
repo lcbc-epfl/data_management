@@ -5,6 +5,7 @@ Good practices
     
     For software and for data. A list of recommended file format can be found at 
     https://researchdata.epfl.ch under "TOOLS --> EPFL Recommended File Formats".
+    This means writing script in python rather than Matlab, saving in odf or csv rathern than in xlsx format.
 
 * **Organize and describe your data.**
 
@@ -19,9 +20,12 @@ Good practices
 
 * **Write Data Management Plans for your projects.** 
 
-    This is particularly important when writing research project proposals. We provide several 
-    templates and tools in the reference section to help you write a DMP.
+    This is particularly important when writing research project proposals. We provide several templates and tools in the reference section to help you write a DMP.
 
+* **Check a few example on how other people do it.** 
+	
+	We have collected a list of examples in the references on how code or simulation data can be published. Check them out to see how other labs round the world share simulation data or code pertinent to analysis of this data. 
+	(ref:`references`.)
 
 .. _zenodo: https://zenodo.org/
 .. _The Journal of Physical and Chemical Reference Data: https://aip.scitation.org/journal/jpr
