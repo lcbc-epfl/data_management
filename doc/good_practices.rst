@@ -9,8 +9,8 @@ Good practices
 
 * **Organize and describe your data.**
 
-    * Follow the recommended folder structure and naming conventions (ref:`data-organization-structure`.).
-    * Describe your data with sufficient metadata, use our README generator to help you create metadata faster (ref:`writing-readme`.).
+    * Follow the recommended folder structure and naming conventions (:ref:`data-organization-structure`.).
+    * Describe your data with sufficient metadata, use our README generator to help you create metadata faster (:ref:`writing-readme`.).
 
 
 * **Publish your data.**
@@ -26,7 +26,7 @@ Good practices
 * **Check a few example on how other people do it.** 
 	
 	We have collected a list of examples in the references on how code or simulation data can be published. Check them out to see how other labs round the world share simulation data or code pertinent to analysis of this data. 
-	(ref:`references`.)
+	(:ref:`references`.)
 
 .. _zenodo: https://zenodo.org/
 .. _The Journal of Physical and Chemical Reference Data: https://aip.scitation.org/journal/jpr
