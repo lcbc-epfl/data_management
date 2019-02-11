@@ -11,7 +11,7 @@ References and useful links
 
 
 Data repositories
--------------------
+**********************
 
 * The zenodo data repository: https://zenodo.org
 
@@ -22,14 +22,14 @@ Data repositories
 * Open Science Framework https://osf.io/
 
 How to write README files
-------------------------------
+***************************
 
 * https://www.dataone.org/best-practices/metadata
 
 * https://data.research.cornell.edu/content/readme
 
 File Formats
------------------
+*************
 
 * DataCite Metadata Schema: https://schema.datacite.org
 
@@ -43,9 +43,9 @@ File Formats
 
 
 Examples for papers publishing their data
---------------------------------------------
+**********************************************
 
-***Molecular dynamics data*** 
+**Molecular dynamics data**
 
 The Dynamic Conformational Landscapes of the Protein Methyltransferase SETD8, 
 Shi Chen, Rafal P. Wiewiora, Fanwang Meng, Nicolas Babault, Anqi Ma, Wenyu Yu, Kun Qian, Hao Hu, Hua Zou, Junyi Wang, Shijie Fan, Gil Blum, Fabio Pittella-Silva, Kyle A. Beauchamp, Wolfman Tempel, Hualiang Jiang, Kaixian Chen, Robert Skene, Y. George Zheng, Peter J. Brown, Jian Jin, Cheng Luo, John D. Chodera, Minkui Luo
@@ -55,7 +55,7 @@ Text in the paper:
 The  molecular  dynamics  datasets  generated and  analyzed  in  this
 study  are  available  via  the  Open  Science  Framework  at  https://osf.io/2h6p4.  The  code  used  for the generation and analysis of the molecular dynamics data is available via a Github repository at https://github.com/choderalab/SETD8-materials
 
-***Quantum Chemistry***
+**Quantum Chemistry**
 
 Random versus Systematic Errors in Reaction Enthalpies Computed
 Using Semiempirical and Minimal Basis Set Methods,
@@ -66,7 +66,7 @@ The Cartesian coordinates of the molecules used in this study
 can be found here: https://doi.org/10.6084/m9.figshare.5822061
 
 
-***Software***
+**Software**
 
 Graph-based genetic algorithm andgenerative model/Monte Carlo tree searchfor the exploration of chemical space, Jan H. Jensen, Preprint, 2019, https://doi.org/10.26434/chemrxiv.7240751.v2
 
@@ -76,7 +76,7 @@ SUPPLEMENTARY INFORMATION: The codes used in this study can be found on GitHub: 
 
 
 Recommended licenses
-------------------------
+***************************
 
 * MIT licence: Completely free whatever you want to do with the software, data no attribution required https://en.wikipedia.org/wiki/MIT_License
 * GNU GPLv3: A bit more restricted than MIT License for free software.  MIT License is permissive, GPL License has strong copyleft. https://www.gnu.org/licenses/gpl-3.0.de.html
