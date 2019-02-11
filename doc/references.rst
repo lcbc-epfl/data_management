@@ -1,7 +1,7 @@
 .. _references:
 
 References and useful links
----------------------------
+==============================
 
 * The starting point for most of the info: https://researchdata.epfl.ch
 

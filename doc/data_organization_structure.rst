@@ -1,6 +1,6 @@
 .. _data-organization-structure:
 Data organization structure
----------------------------
+==============================
 
 
 Notes
