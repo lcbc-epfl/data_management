@@ -1,4 +1,4 @@
-.. _writing-readme:
+.. _writing-readme::
 How to write and use README file to describe data and folder hierarchies
 ========================================================================
 

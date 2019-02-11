@@ -1,4 +1,4 @@
-.. _data-organization-structure:
+.. _data-organization-structure::
 Data organization structure
 ==============================
 
