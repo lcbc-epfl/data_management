@@ -55,6 +55,8 @@ The only important thing is that your metadata should explain clearly and in
 details how you have chosen to organize your data. We hope that the templates
 produced by the :py:mod:`create_metadata.py` can help you doing that.
 
+For more details, take a look at this section: :ref:`data_organization`.
+
 Using the script
 ----------------
 

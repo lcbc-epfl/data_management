@@ -1,7 +1,7 @@
-.. _data-org-page:
+.. _data_organization:
 
-Data organization structure
-==============================
+Data organization
+=================
 
 
 Notes
@@ -9,27 +9,27 @@ Notes
 
 Think about how you can make your project most accesible to yourself and others. It should be possible to figure out what you did and which system you use in every directory of your project. This does not mean you need to create page long README files in every directory but rather keep a consistent structure of your files which makes things easier not only for yourself but also for others. 
 
-Things that can help you achieve this are: 
-********************************************************
+Things that can help you achieve this
+*************************************
 
-* Give each project a common identifier. This makes it more evident, what the current system is just by looking at any folder in your project. 
-You could constitute the project identifier from things like:
+* Give each project a common identifier. This makes it more evident, what the current system is just by looking at any folder in your project. You could constitute the project identifier from things like,
+
     * Abbreviation for your system name like GB1 (Guanine nucleotide-binding protein subunit beta1), RNH (RNase H), PerPb.I3  (CH3NH3PbI3)
-    * Use a modifier for every major modification you make to your system. E.g  RNH.dsDNA is the RNH protein with dsDNA instead of RNA/DNA hybrid. PerPb.Br3 is the Perovskite with Bromide instead of Iodide.
-    The modifier is used as a prefix for every coordinate file you generate and thus makes them easily identifiable. 
+
+    * Use a modifier for every major modification you make to your system. E.g  RNH.dsDNA is the RNH protein with dsDNA instead of RNA/DNA hybrid. PerPb.Br3 is the Perovskite with Bromide instead of Iodide. The modifier is used as a prefix for every coordinate file you generate and thus makes them easily identifiable. 
 
 * Use common suffixes and keep them consistent. E.g _dry, _solv categories when generating modifications to your input coordinates from a crystal structure. 
 
 READMEs, where?
-**********************
+***************
 There should be one general, long README file in the root folder of your project and shorter README files in the respective subdirectories.
 
 The long README file describes the overall goals of your project and gives guidance on how to proceed in understanding the data in the subdirectories. The shorter README files in the respective folders should give information pertinent to rerunning and understanding this specific calculation or analysis. 
 
-More information on how to write the README files find in the README section (ref:`writing-readme`.)
+More information on how to write the README files find in the README section (:ref:`readme_templates`.)
 
 Folder structure
-******************
+****************
 
 We don't want to limit you in your creativity or your workflow so we won't enforce a specific one-size-fits-all folder structure.
 

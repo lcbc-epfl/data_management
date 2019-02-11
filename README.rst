@@ -27,10 +27,10 @@ tips, scripts, references and good practices.
 
    good_practices
    lcbc_github
+   data_organization
    readme_templates
    references
    meeting_reports
-.. data_organization_structure
 
 Indices and tables
 ==================
@@ -40,4 +40,5 @@ Indices and tables
 * :ref:`search`
 
 .. _data management: https://github.com/lcbc-epfl/data_management
+
 
