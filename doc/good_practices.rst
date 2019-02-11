@@ -9,8 +9,8 @@ Good practices
 
 * **Organize and describe your data.**
 
-    * Follow the recommended folder structure and naming conventions :ref:`data-org-page` .
-    * Describe your data with sufficient metadata, use our README generator to help you create metadata faster :ref:`readme-page`.
+    * Follow the recommended folder structure and naming conventions: :ref:`data-org-page` .
+    * Describe your data with sufficient metadata, use our README generator to help you create metadata faster. To see how to use it: :ref:`readme-page`.
 
 
 * **Publish your data.**
@@ -25,7 +25,7 @@ Good practices
 
 * **Check a few example on how other people do it.** 
 	
-	We have collected a list of examples in the references on how code or simulation data can be published. Check them out to see how other labs round the world share simulation data or code pertinent to analysis of this data. 
+	We have collected a list of examples in the references on how code or simulation data can be published. Check them out to see how other labs round the world share simulation data or code pertinent to analysis of this data:  
 	:ref:`referencepage`
 
 .. _zenodo: https://zenodo.org/
