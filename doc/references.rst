@@ -78,7 +78,7 @@ SUPPLEMENTARY INFORMATION: The codes used in this study can be found on GitHub: 
 Recommended licenses
 ***************************
 
-* MIT licence: Completely free whatever you want to do with the software, data no attribution required https://en.wikipedia.org/wiki/MIT_License
+* MIT licence: Completely free whatever you want to do with the software, data. Has to redistributed with the license file and your name.  Compatible with most other licenses. E.g it is possible to include MIT licensed code in a GPL software package. https://en.wikipedia.org/wiki/MIT_License
 * GNU GPLv3: A bit more restricted than MIT License for free software.  MIT License is permissive, GPL License has strong copyleft. https://www.gnu.org/licenses/gpl-3.0.de.html
 * Creative Commons BY 4.0: Recommended license for data, it is free to reuse and alter your software or data but can only be shared with attribution to you.  https://creativecommons.org/licenses/by/4.0/deed.en
 
