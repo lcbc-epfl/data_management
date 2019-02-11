@@ -1,4 +1,5 @@
-.. _data-organization-structure::
+.. _data-org-page:
+
 Data organization structure
 ==============================
 

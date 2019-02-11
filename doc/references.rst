@@ -1,4 +1,4 @@
-.. _references::
+.. _referencepage:
 
 References and useful links
 ==============================
