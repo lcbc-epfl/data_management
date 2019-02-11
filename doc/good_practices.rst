@@ -4,16 +4,14 @@ Good practices
 * **Use Open-Source as much as possible.** 
     
     For software and for data. A list of recommended file format can be found at 
-    https://researchdata.epfl.ch under "TOOLS -> EPFL Recommended File Formats".
+    https://researchdata.epfl.ch under "TOOLS --> EPFL Recommended File Formats".
+    This means writing script in python rather than Matlab, saving in odf or csv rathern than in xlsx format.
 
 * **Organize and describe your data.**
 
-    * Follow the recommended folder structure and use the README file templates
-      to describe your data (see, :ref:`readme_templates`).
-    * If you want to stick to your own way, it's ok, just make sure everything is clear and
-      properly documented.
-    * You are also very welcome to suggest modifications to our guidelines and
-      template generator.
+    * Follow the recommended folder structure and naming conventions (ref:`data-organization-structure`.).
+    * Describe your data with sufficient metadata, use our README generator to help you create metadata faster (ref:`writing-readme`.).
+
 
 * **Publish your data.**
 
@@ -23,9 +21,12 @@ Good practices
 
 * **Write Data Management Plans for your projects.** 
 
-    This is particularly important when writing research project proposals. We provide several 
-    templates and tools in the reference section to help you write a DMP.
+    This is particularly important when writing research project proposals. We provide several templates and tools in the reference section to help you write a DMP.
 
+* **Check a few example on how other people do it.** 
+	
+	We have collected a list of examples in the references on how code or simulation data can be published. Check them out to see how other labs round the world share simulation data or code pertinent to analysis of this data. 
+	(ref:`references`.)
 
 .. _zenodo: https://zenodo.org/
 .. _The Journal of Physical and Chemical Reference Data: https://aip.scitation.org/journal/jpr

@@ -1,86 +1,56 @@
+.. _data-organization-structure:
 Data organization structure
 ---------------------------
 
-Biomolecular projects
-*********************
 
 Notes
 *****
 
-Each project should get a common identifier, which can be modified with a subidentifier for modified structures
-This makes it more evident, what the current system is just by looking at any folder in your project. 
+Think about how you can make your project most accesible to yourself and others. It should be possible to figure out what you did and which system you use in every directory of your project. This does not mean you need to create page long README files in every directory but rather keep a consistent structure of your files which makes things easier not only for yourself but also for others. 
 
-Ideally, use something like:
+Things that can help you achieve this are: 
+********************************************************
 
-* Abbreviation for your system name like GB1 (Guanine nucleotide-binding protein subunit beta1), RNH (RNase H)
+* Give each project a common identifier. This makes it more evident, what the current system is just by looking at any folder in your project. 
+You could constitute the project identifier from things like:
+    * Abbreviation for your system name like GB1 (Guanine nucleotide-binding protein subunit beta1), RNH (RNase H), PerPb.I3  (CH3NH3PbI3)
+    * Use a modifier for every major modification you make to your system. E.g  RNH.dsDNA is the RNH protein with dsDNA instead of RNA/DNA hybrid. PerPb.Br3 is the Perovskite with Bromide instead of Iodide.
+    The modifier is used as a prefix for every coordinate file you generate and thus makes them easily identifiable. 
 
-* Use a modifier for every major modification you make to your system. RNH.dsDNA is the RNH protein with dsDNA instead of RNA/DNA hybrid. The modifier is used as a prefix for every coordinate file you generate. 
-
-* Common modifiers should use the same suffix. E.g always use _dry, _solv categories when generating input files as you go
+* Use common suffixes and keep them consistent. E.g _dry, _solv categories when generating modifications to your input coordinates from a crystal structure. 
 
 READMEs, where?
-***************
-There should be one general, long README file in the root of your project describing the system and major subsystems you made + a current date, which software, which clusters were used and how you can be reached. 
-E.g RNase H with hybrid DNA/RNA, dsDNA and dsRNA. 
+**********************
+There should be one general, long README file in the root folder of your project and shorter README files in the respective subdirectories.
 
-Use the recommended folder structure below and place shorter README files in the respective subdirectories
+The long README file describes the overall goals of your project and gives guidance on how to proceed in understanding the data in the subdirectories. The shorter README files in the respective folders should give information pertinent to rerunning and understanding this specific calculation or analysis. 
+
+More information on how to write the README files find in the README section (ref:`writing-readme`.)
 
 Folder structure
-****************
-* README
+******************
 
-* prep
-    * README
-       * describes the system a bit
-    * orginal_files
-       * contains all files downloaded from RCSB etc.
-    * params_QM
-       * deposit any basis set files etc here
-    * params_MD
-       * contains used parameter set, especially self generated parameters e.g MD parameters from MCPB or modifed basis set files
-    * docking
-       * if you had to dock your ligand etc. 
-    * add all other steps you undertook before doing actual "simulation" of your system
-* **calc**
-   * MD
-       * README
-          * add a line for each simulation you do, add one line results here or point to summary file of analysis
-
-    * SYSTEMNAME.freeform.1
-       * name each simulation starting with the system name and then use freeform to indicate what it is e.g first_equilibration, try using the keywords min, eq, nvt, npt, eq, prod, analysis for directories in this one, describe with README files to be able to reproduce all terminal commands you use. 
-    * add all further MD simulations here 
-
-  * metadyn
-
-    * README
-       * add a line for each simulation you do and why you did it, add one line results here or point to summary file of analysis
-
-    * SYSTEMNAME.freeform.1
-       * name each simulation starting with the system name and then use freeform to indicate what it is e.g first_equilibration, try using the keywords min, eq, nvt, npt, eq, prod 
-    * add all further metadyn simulations here 
-
-  * [...] add all other types of calculations you do with a representative keyword here. E.g qmmm, mmpbsa, genetic_algorithm 
+We don't want to limit you in your creativity or your workflow so we won't enforce a specific one-size-fits-all folder structure.
 
 
-* **scripts**
-     *  deposit all the scripts you use for analysis in the script folder, ideally add scripts to you path so you can reference them more easily
+However, we request you to think about your folder structure before starting with the project and to avoid arbitray named folders or folders like test, junk etc at any cost. 
 
-
-
-Ideas to make it easier to adopt
-********************************
-
-Create new script that can quickly generate a boilerplate for the recommended directories that can then be filled by the user. 
+For making the project accessible to any third party try organizing the files of every project in a folder where you organize all inputs for the calculation (unedited crystal structures etc.), folders where you store calculation raw data with no modification and folders where you store data that was generated based on your raw data (energy plots, density plots, RMSD distributions etc.) 
 
 .. code-block:: bash
 
-   $ generate_new_project
-   > generating new project in ~/projects
-   > Enter project name: 
-   > RNaseH_DNAbinding_properties
-   > Enter system name: 
-   > RNH
-   > all folders created, press [y] to proceed to edit project root README, [n] to exit
-
-
+    $ tree project_folder
+    ├── README
+    ├── input_prep
+    |   ├── crystal_structures
+    |   ├── parameters
+    |   ├── docking
+    ├── computations
+    |   ├── QM
+    |   |   ├── SYSTEM.geo_opt.1
+    |   |   ├── SYSTEM.qmmm_md.1
+    |   ├── metadyn
+    |   |   ├──SYSTEM.noH.metadyn.1
+    |   ├── [..]
+    ├── analysis
 
